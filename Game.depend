@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1743614476 source:c:\users\admin\downloads\firstproject\game\main.cpp
+	<bits/stdc++.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	"graphics.h"
+	"defs.h"
+	"obstacles.h"
+	"events.h"
+	"cars.h"
+
+1743614600 c:\users\admin\downloads\firstproject\game\graphics.h
+	<SDL.h>
+	<SDL_image.h>
+	"defs.h"
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+
+1743614571 c:\users\admin\downloads\firstproject\game\defs.h
+
+1743614736 c:\users\admin\downloads\firstproject\game\obstacles.h
+	<SDL.h>
+	<SDL_image.h>
+
+1743614795 c:\users\admin\downloads\firstproject\game\events.h
+	<SDL.h>
+	<SDL_image.h>
+	"checkrect.h"
+
+1743614770 c:\users\admin\downloads\firstproject\game\checkrect.h
+	<bits/stdc++.h>
+	<SDL.h>
+	<SDL_image.h>
+
+1743614693 c:\users\admin\downloads\firstproject\game\cars.h
+	<SDL.h>
+	<SDL_image.h>
+
