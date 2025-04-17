@@ -8,11 +8,11 @@ Racing Car là trò chơi bạn cần né các vật cản để vượt qua 9 v
 Bạn dùng các phím <- và -> để né các vật cản.
 
 ## Một vài Screenshot
-![Main Menu](https://i.imgur.com/whLqFPp.jpeg
+![Main Menu](https://drive.google.com/drive/folders/1BsEVUW_43Ve8N3kO0XDsuiDh9JuYtRB5?hl=vi
 )
-![Paused Menu](https://i.imgur.com/Stj7Ct2.jpeg
+![Paused Menu](https://drive.google.com/drive/folders/1BsEVUW_43Ve8N3kO0XDsuiDh9JuYtRB5?hl=vi
 )
-![Gameplay](https://i.imgur.com/FEAifQS.jpeg
+![Gameplay](https://drive.google.com/drive/folders/1BsEVUW_43Ve8N3kO0XDsuiDh9JuYtRB5?hl=vi
 )
-![Game Over](https://i.imgur.com/2X6gO6b.jpeg
+![Game Over](https://drive.google.com/drive/folders/1BsEVUW_43Ve8N3kO0XDsuiDh9JuYtRB5?hl=vi
 )
