@@ -10,7 +10,7 @@ Bạn dùng các phím <- và -> để né các vật cản.
 ## Một vài Screenshot
 ![Main Menu](image/playmenu.png)
 )
-![Game Play](image/GamePlayy.jpg
+![Game Play](image/GamePlayy.jpg)
 )
 ![Paused Menu](image/pausedmenu.png)
 )
