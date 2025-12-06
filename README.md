@@ -3865,9 +3865,87 @@ visit(u)
 ```
 
 ---
-```
+# 📌 Cheatsheet Độ Phức Tạp Thuật Toán (DSA)
+
+## 1. Độ phức tạp truy cập cấu trúc dữ liệu
+
+| Cấu trúc dữ liệu | Truy cập | Tìm kiếm | Chèn | Xoá |
+|------------------|----------|----------|------|------|
+| Array (tĩnh)     | O(1)     | O(n)     | O(n) | O(n) |
+| Dynamic Array    | O(1)     | O(n)     | Amortized O(1) | O(n) |
+| Linked List      | O(n)     | O(n)     | O(1) | O(1) |
+| Skip List        | O(log n) | O(log n) | O(log n) | O(log n) |
+| Hash Table       | -        | Avg O(1), Worst O(n) | Avg O(1) | Avg O(1) |
+| Binary Search Tree | O(log n)* | O(log n)* | O(log n)* | O(log n)* |
+| AVL / Red-Black   | O(log n) | O(log n) | O(log n) | O(log n) |
+| Heap (Binary Heap) | O(1)     | O(n)     | O(log n) | O(log n) |
+
+\* Với BST cân bằng. Nếu không, Worst-case = O(n).
 
 ---
+
+## 2. Độ phức tạp các thuật toán sắp xếp
+
+| Thuật toán | Best | Average | Worst | Ghi chú |
+|-----------|------|---------|-------|---------|
+| Selection Sort | O(n²) | O(n²) | O(n²) | Không ổn định |
+| Bubble Sort | O(n) | O(n²) | O(n²) | Ổn định |
+| Insertion Sort | O(n) | O(n²) | O(n²) | Ổn định, tốt khi gần sorted |
+| Merge Sort | O(n log n) | O(n log n) | O(n log n) | Ổn định, cần O(n) memory |
+| Quick Sort | O(n log n) | O(n log n) | O(n²) | Không ổn định |
+| Heap Sort | O(n log n) | O(n log n) | O(n log n) | Không ổn định |
+| Counting Sort | O(n + k) | O(n + k) | O(n + k) | Ổn định |
+| Radix Sort | O(d(n + k)) | O(d(n+k)) | O(d(n+k)) | Ổn định |
+| Bucket Sort | O(n + k) | O(n + k) | O(n²) | Phụ thuộc dữ liệu |
+
+---
+
+## 3. Đồ thị – Graph Algorithms
+
+| Thuật toán | Thời gian |
+|-----------|-----------|
+| BFS | O(V + E) |
+| DFS | O(V + E) |
+| Dijkstra (Min-Heap) | O((V + E) log V) |
+| Bellman–Ford | O(VE) |
+| Floyd–Warshall | O(V³) |
+| Prim (Min-Heap) | O((V + E) log V) |
+| Kruskal | O(E log V) |
+| Topo Sort (Kahn/DFS) | O(V + E) |
+| Kiểm tra 2 phía (Bipartite, BFS/DFS) | O(V + E) |
+
+---
+
+## 4. Cấu trúc cây nâng cao
+
+| Cấu trúc | Tìm kiếm | Chèn | Xoá |
+|----------|----------|------|------|
+| Trie | O(m) | O(m) | O(m) |
+| Segment Tree | O(log n) | O(log n) | O(log n) |
+| Fenwick Tree (BIT) | O(log n) | O(log n) | - |
+| Treap | O(log n) | O(log n) | O(log n) |
+
+---
+
+## 5. Độ phức tạp đệ quy thường gặp
+
+| Công thức | Độ phức tạp |
+|-----------|-------------|
+| T(n) = T(n/2) + O(1) | O(log n) |
+| T(n) = T(n/2) + O(n) | O(n) |
+| T(n) = 2T(n/2) + O(1) | O(n) |
+| T(n) = 2T(n/2) + O(n) | O(n log n) |
+| T(n) = T(n-1) + O(1) | O(n) |
+| T(n) = T(n-1) + O(n) | O(n²) |
+
+---
+
+## 6. Độ phức tạp khi dùng mảng + danh sách kề
+
+| Biểu diễn | Duyệt cạnh | Tìm cạnh (u,v) |
+|-----------|------------|----------------|
+| Adjacency Matrix | O(V²) | O(1) |
+| Adjacency List | O(V+E) | O(deg(u)) |
 
 
 ---
